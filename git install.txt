@@ -1,0 +1,47 @@
+https://gulpjs.com/docs/en/getting-started/quick-start/
+
+Check for node, npm, and gulp version
+
+$ node --version
+
+$ npm --version
+
+$ gulp --version
+
+=========Gulp=============
+Install the gulp command line utility
+
+$ gulp install
+
+$ npm install -g gulp
+
+$ npm install --global gulp-cli
+
+for run
+$ gulp
+$ npm run watch
+
+=========================
+https://www.gitkraken.com/learn/git/git-flow
+https://www.javatpoint.com/git-cheat-sheet
+
+The Git config command
+$ git config --global user.name "Your Name Comes Here"
+$ git config --global user.email you@yourdomain.example.com
+
+below command for check config user name and email
+$ git config --list
+
+=============git pull push process=============
+$ git pull origin master
+$ git status
+$ git add .
+$ git commit -m "Commit Message"  
+$ git pull origin master
+$ git push origin master
+
+=========================
+
+Git Resolve Conflicts In Pull Request | Git Conflicts | Git Merge Conflicts
+
+press i then :wq then enter
