@@ -1,0 +1,44 @@
+
+=============git Commands=============
+$ ls : List the content of your current directory
+$ ls -a: See all hidden folder in your current directory
+$ pwd : (print working directory) print the path to the working directory(where you currently working)
+$ cd : (change directory) use cd to change and move between folders
+$ cd .. :Use cd .. go to back directory one folder
+$ start . : open current directory folder
+$ touch : use to create a file
+$ mkdir : create a new directory
+$ rm : rm will delete a file and files(it permanently removes them)
+$ rm -rf : use to delete a directory
+
+=============In git repository===============
+git init : use to create a new git repository
+git add : we use the git add command to stage changes go be committed.
+git add filename: for separate file add
+git add . : use git add . to stage all changes at once (for all files add
+
+git commit -m "my message": we use the git commit command to actually commit changes from the staging area.
+
+git log : use to see comment history of commits (How To Exit The Git Log: By pressing the q key on the keyboard)
+
+================================
+Press i then Esc then :wq then enter
+
+$ git commit --amend : modify commit message already commited
+
+create file with ".gitignore" to ignore file and folder for stating  
+
+$ git branch : for viewing all branches
+$ git branch <branch-name> : use for to create a new branch
+$ git switch <branch-name> : use for switch over to the other branch
+$ git checkout <branch-name> : use for switch over to the other branch
+$ git switch -c <branch-name> : Create a new branch and switch to it all in one go.(-c as short for "create")
+$ git branch -d <branch-name> : use for delete branch
+$ git branch -m <branch-name> : use for rename branch 
+$ git merge <branch-name> : use for murge branges
+$ git restore <file name> :(use "git restore <file>..." to discard changes in working directory)
+$ git diff : use "git diff" to view what changes have to you done.(only show unstaged changes)
+$ git diff head : use "git diff head" to viewing working directory all changes (also view changes unstage and staged).
+$ git diff --staged : use for only see the staged change.
+$ git diff --staged <file name> : we can view the change within a specific file by providing git diff with a filename.
+$ git diff master..branch-name : use to see changes

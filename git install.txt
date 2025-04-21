@@ -30,7 +30,7 @@ $ git config --global user.name "Your Name Comes Here"
 $ git config --global user.email you@yourdomain.example.com
 
 below command for check config user name and email
-$ git config --list
+$ git config --list (view config list)
 
 =============git pull push process=============
 $ git pull origin master
@@ -38,10 +38,15 @@ $ git status
 $ git add .
 $ git commit -m "Commit Message"  
 $ git pull origin master
-$ git push origin master
+$ git push origin master (test)
 
 =========================
 
 Git Resolve Conflicts In Pull Request | Git Conflicts | Git Merge Conflicts
 
 press i then :wq then enter
+
+==========================
+testing restore commant on dev branch
+create new branch
+03/10/2024
